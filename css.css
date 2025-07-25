@@ -1,0 +1,44 @@
+.zxc {
+  width: 2000px;
+  height: 800px;
+  border: 1px solid black;
+  margin: 30px auto;
+  background-color: antiquewhite;
+}
+
+@keyframes animations {
+  0% {
+    translate: 10px;
+  }
+  15% {
+    translate: 300px -300px;
+  }
+  30% {
+    translate: 600px;
+  }
+  45% {
+    translate: 900px -300px;
+  }
+  60% {
+    translate: 1200px;
+  }
+  80% {
+    translate: 1600px -300px;
+  }
+  100% {
+    translate: 1800px;
+  }
+}
+
+.one {
+  animation: animations;
+  animation-iteration-count: infinite;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  background-color: black;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 190px;
+}
